@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Calculator in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterTParks/calculator-javascript.git"
+  },
+  "author": "Hunter Parks, Andrew Glines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HunterTParks/calculator-javascript/issues"
+  },
+  "homepage": "https://github.com/HunterTParks/calculator-javascript#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "test"
+  ]
+}
