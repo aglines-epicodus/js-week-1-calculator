@@ -71,3 +71,24 @@ gulp.task('concatInterface', function() {
 
 \*
 If we maintain this naming convention as our project grows we won't need to modify our gulp concatenate/browserify tasks if we add new files - we just name them something ending in -interface.js if they are going to be used in the browser, and keep them in the js folder. Then they will automatically be included in build/js/app.js.
+
+
+
+
+
+
+
+
+
+# BOWER
+### Bower is a package manager but for frontend = BootStrap, jQuery.
+* npm install bower -g   > bower init
+* bower install jquery --save  > bower install
+* .gitignore:  add bower_components
+* Change script src from ajax to <script src="bower_components/jquery/dist/jquery.min.js"></script>
+* Load jquery before bootstrap, since jq is dependent on bootstrap:
+  * <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+### Moment.js
+* 
