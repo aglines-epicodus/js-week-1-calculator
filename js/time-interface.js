@@ -10,7 +10,10 @@ $(document).ready(function(){
     $('.showWeather').text("TESTING City = " + city);
     $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey, function(response){
       console.log(response);
-      $('.showWeather').text("The humidity in " + city + " is " + response.main.humidity + "%");
+      var test = response.main.temp * 1.8 - 459.67;
+      $('.showWeather').append("<p>The humidity in " + city + " is " + response.main.humidity + "</p>");
+      $('.showWeather').append("<p> % the temperature is " + test + "</p>");
+      // $('.showWeather').append("The temperature is " + response.main.temp;
     });
   });
 });
