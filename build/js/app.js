@@ -9,7 +9,7 @@ Calculator.prototype.Compute = function() {
   output = 4;
 
   return output;
-}
+};
 
 exports.calculatorModule = Calculator;
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
     var symbol = $('#symbol').val();
     var testCalculator = Calculator(user_input, user_input2, symbol);
     var output = testCalculator.Compute();
-    console.log(output);
+    $('#output').append(output);
   });
 });
 

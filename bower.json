@@ -1,0 +1,21 @@
+{
+  "name": "calculator",
+  "description": "Calculator in Javascript",
+  "main": "index.js",
+  "authors": [
+    "Hunter Parks",
+    "Andrew Glines"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

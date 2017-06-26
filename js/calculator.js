@@ -8,6 +8,6 @@ Calculator.prototype.Compute = function() {
   output = 4;
 
   return output;
-}
+};
 
 exports.calculatorModule = Calculator;
