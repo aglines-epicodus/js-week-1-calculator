@@ -2,9 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="js/calculator.js"></script>
-    <script type="text/javascript" src="js/calculator-interface.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
 
     <!-- <script type="text/javascript" src="build/js/app.js"></script> -->
     <title>TITLE</title>
@@ -15,8 +14,14 @@
       <input id="user_input" type="number">
       <label for="user_input2">Enter another number</label>
       <input id="user_input2" type="number">
-      <label for="user_input2">SYMBOL this will just be + for now</label>
-      <input id="symbol" type="text">
+
+      <select name="symbol" id = "symbol">
+        <option value="1">+</option>
+        <option value="2">-</option>
+        <option value="3">*</option>
+        <option value="4">/</option>
+      </select>
+
       <button type="submit">Submit</button>
     </form>
     <ul id="output"></ul>
